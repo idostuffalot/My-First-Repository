@@ -25,6 +25,7 @@ One arm up: This code does not produce the desired behavior
 */
 
 fn main() {
+    println!("added to github");
     println!("Guess the number!");
     //output << generate random value << generate range (range)
     let secret_number = rand::thread_rng().gen_range(1..=100);
